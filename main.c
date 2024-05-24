@@ -3,6 +3,5 @@
 #include "stack.h"
 
 int main(){
-    printf("TA FUNCIONANDO");
     return 0;
 }
