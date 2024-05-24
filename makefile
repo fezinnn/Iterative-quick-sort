@@ -1,16 +1,16 @@
 CC = gcc
 CFLAGS = -Wall -Wextra
 
-all: iterative_quick_sort
+all: quick_sort_iterativo
 
-iterative_quick_sort: main.o stack.o
-	$(CC) $(CFLAGS) -o iterative_quick_sort main.o stack.o
+quick_sort_iterativo: main.o pilha.o
+	$(CC) $(CFLAGS) -o quick_sort_iterativo main.o pilha.o
 
-main.o: main.c stack.h
+main.o: main.c pilha.h
 	$(CC) $(CFLAGS) -c -o main.o main.c
 
-stack.o: stack.c stack.h
-	$(CC) $(CFLAGS) -c -o stack.o stack.c
+pilha.o: pilha.c pilha.h
+	$(CC) $(CFLAGS) -c -o pilha.o pilha.c
 
 clean:
-	rm -f iterative_quick_sort main.o list.o
+	rm -f quick_sort_iterativo main.o pilha.o
