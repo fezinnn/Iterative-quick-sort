@@ -1,3 +1,8 @@
+/*
+A estratégia iterativa implementada do algoritmo Quicksort proporciona maior controle sobre a pilha se comparado com a versão
+recursiva, permitindo otimizações para manter a pilha em O(log n).
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
