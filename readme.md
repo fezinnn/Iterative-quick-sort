@@ -1,3 +1,5 @@
+Feito por Alan Andrade Vasconi de Souza, Felipe Santos Lourenço e Fernando Henrique de Castro Chagas.
+
 # Ordenação com QuickSort Iterativo
 
 Este projeto implementa o algoritmo de ordenação QuickSort de maneira não recursiva utilizando uma pilha para simular a recursão.
